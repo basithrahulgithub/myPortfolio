@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.project {
+    background-image: url('https://res.cloudinary.com/dhjku3vlt/image/upload/v1733901168/the_r44yjh.avif');
+    background-size: cover;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pro-card {
+    background-color: #f0ffff;
+    border-color: grey;
+    border-width: 1px;
+    width: 320px;
+    max-height: 340px;
+    overflow: auto;
+    border-style: solid;
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.blue-cont {
+    background-color: #0096FF;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blue-head {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    align-self: center;
+    margin-top: 4px;
+}
+
+.head-cont {
+    margin-top: 16px;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.para-cont {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skills-used {
+    text-align: center;
+    background-color: #fff;
+    border-color: grey;
+    border-width: 1px;
+    width: 80px;
+    height: 35px;
+    border-radius: 4px;
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.skill-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-align {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.tech {
+    width: 80px;
+    height: 80px;
+}
+
+.image-html {
+    width: 100px;
+    height: 80px;
+}
+
+.image-css {
+    width: 60px;
+    height: 60px;
+}
+
+.image-ser {
+    width: 80px;
+    height: 80px;
+}
+
+.tech-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px;
+    align-self: center;
+    text-align: center;
+}
+
+.python-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-get {
+    border: 4px solid gold;
+    width: 120px;
+    height: 140px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about {
+    background-color: #f0ffff;
+
+}
+
+.about-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-para {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.grad {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.arrow {
+    color: #183b56;
+    font-weight: 600;
+}
+
+.btn-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+.linked {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-color: #183b56;
+    border-width: 1px;
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#porto {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nav1 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#nav2 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#nav3 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#nav4 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cont {
+    background-image: linear-gradient(65deg, black, transparent), url('https://res.cloudinary.com/dhjku3vlt/image/upload/v1733632920/afrozI_med2uw.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.porto-head {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.porto-para {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+}
